@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'dkfont'; 
+    src: url('/assets/TestTiemposFine-Medium-BF66457a50e62cd.otf'); /* Locate the .ttf file within your directory*/
+  }
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    
+    color: #333;
+}
+
+header {
+    /* background: #000; */
+    color: #f1e6e6;
+    padding: 15px 0;
+}
+
+nav {
+    max-width: 1200px;
+
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    margin-left: -7px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: -91px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bg{
+    background-image: url(/assets/bgok.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 1px -276px;
+    max-height: 404px;
+    /* font-family: 'dkfont'; */
+}
+
+.hero {
+    /* background: #000; */
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.searchbar{
+    
+    
+    padding: 8px 210px;
+    padding-left: 17px;
+    background-color: rgba(255, 254, 254, 0.65);
+    margin-left: -330px;
+    border: 1px solid #ccc;
+    border-radius: 34px;
+    outline: 0;
+}
+
+.about > p{
+    text-align: center;
+}
+.cta-button {
+    background: #ffffffc4;
+    color: #000;
+    padding: 6px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.services, .about, .testimonials, .contact {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.services h1, .about h2, .testimonials h2, .contact h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.services h1{
+   font-size: 30px;
+}
+
+.service {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    
+    text-align: center;
+    
+}
+
+.service h2{
+    text-align: left;
+}
+
+.service img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimonial {
+    background: #e9ecef;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #000;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.eight{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
+    align-items: center;
+    align-content: center;
+
+    padding-top: 88px;
+}
+
+.footerbody{
+    color: rgb(202, 198, 198);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 9px;
+    font-weight: 100;
+    
+    column-gap: 147px;
+    row-gap: 26px;
+}
+
+.footerheader{
+    color: rgb(202, 198, 198);
+    font-size: 17px;
+    font-weight: 100;
+    margin-left: 239px;
+    align-self:flex-start;
+    margin-bottom: 36px;
+    margin-top: -36px;
+}
+
+#footerlast{
+    color: rgb(202, 198, 198);
+    font-size: 14px;
+    font-weight: 100;
+    
+    margin-top: 46px;
+}
+#lang2{
+    position: relative;
+    left:-462px;
+    top:18px;
+    width: 120px;
+
+    padding: 6px;
+
+    border-radius: 4px;
+    background-color: rgba(0 0 0 / 60%);
+    color: white;
+    backdrop-filter: blur(2px);
+}
